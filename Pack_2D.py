@@ -294,8 +294,8 @@ def criar_conjunto(objs,cont,saveorshow):
         sobra += sobra0
     return conjunto
  
-arq = open('In.txt','r')
-arq1 = open('Out.txt','w')
+arq = open('item.txt','r')
+arq1 = open('packed.txt','w')
 objs = arq.read().splitlines()
 arq.close()
 x = len(objs)
